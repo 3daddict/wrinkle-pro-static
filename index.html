@@ -27,6 +27,7 @@
 						<h4>About</h4>
 						<p class="text-muted">Healing yourself makes you smart. Healing others makes you important and kind.</p>
 						<a class="lead text-light mr-2" href="http://wrinklepro.com/services">Services</a>
+						<a class="lead text-light mr-2" href="http://wrinklepro.com/blog">Blog</a>
 						<a class="lead text-light" href="http://wrinklepro.com/contact">Contact</a>
 						</div>
 						<div class="col-sm-4 offset-md-1 py-4">
@@ -78,8 +79,8 @@
 						<p class="lead">Healing yourself makes you smart.</p>
 						<p class="lead">Healing others makes you important and kind.</p>
 				
-						<button class="btn btn-light m-2" onclick="playAudio()">Play Audio</button>
-						<audio id="playAudio">
+						<button class="btn btn-light m-2" onclick="toggleAudio()" id="playButton">Play Audio</button>
+						<audio id="audioFile">
 							<source src="./assets/audio/mixdown_2.mp3" type="audio/mpeg">
 							Your browser does not support the audio element.
 						</audio>
@@ -148,7 +149,7 @@
 									<div class="container">
 										<div class="row text-center text-xs-center text-sm-left text-md-left">
 										<div class="col-xs-12 col-sm-4 col-md-4 text-center">
-												<img src="http://wrinklepro.local/wp-content/uploads/2018/12/eye-ball-1.png" class="img-fluid" id="footerLogo" alt="Eye Logo Large">
+												<img src="./assets/images/eye-ball.png" class="img-fluid" id="footerLogo" alt="Eye Logo Large">
 											</div>
 										
 											<div class="col-xs-12 col-sm-4 col-md-4">
@@ -159,9 +160,9 @@
 												<h5>Quick links</h5>
 												<ul class="list-unstyled quick-links">
 													<li><a href="#"><i class="fa fa-angle-double-right"></i> Home</a></li>
-													<li><a href="#"><i class="fa fa-angle-double-right"></i> About</a></li>
-													<li><a href="#"><i class="fa fa-angle-double-right"></i> How to Donate</a></li>
-													<li><a href="#"><i class="fa fa-angle-double-right"></i> Contact</a></li>
+													<li><a href="https://wrinklepro.com/blog" target="_blank"><i class="fa fa-angle-double-right"></i> Blog</a></li>
+													<li><a href="https://www.paypal.com/signin?forceLogin=false&returnUri=https%253A%252F%252Fwww.paypal.com%252Fdonate%252Fmember%253Ftoken%253Dottsorx3EpzxJ5_YLxAOYAQSdhs75eS-z8fyMDfoe8uM1pkbGSicYSBzmsiMf1-9fCICf0%2526fromUL%253Dtrue&intent=donate&ctxId=5eb818ace844457583ec01468ab3036c" target="_blank"><i class="fa fa-angle-double-right"></i> How to Donate</a></li>
+													<li><a href="https://wrinklepro.com/contact" target="_blank"><i class="fa fa-angle-double-right"></i> Contact</a></li>
 												</ul>
 											</div>
 										</div>

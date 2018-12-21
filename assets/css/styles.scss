@@ -8,11 +8,17 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar {
-    background-color: #ff569c;
+    background-color: #f06292;
+
+    strong {
+        font-family: 'Sacramento', cursive;
+        font-size: 2rem;
+        text-shadow: 1px 1px 2px #000;
+    }
 }
 
 .nav-expanded {
-    background-color: #ff569c;
+    background-color: #f06292;
 }
 
 #navLogo {
@@ -24,10 +30,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .banner-divider {
-    background-color: #ff569c;
+    background-color: #f06292;
     text-align: center;
     img {
-        padding: 1rem 0;
+        margin: -15px 0 2rem 0;
     }
 }
 
@@ -36,8 +42,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .title--background {
-    padding: 6rem;
-    background-color: #ff569c;
+    padding: 3rem 0;
+    background-color: #f06292;
 }
 
 .title--background h1 {
@@ -48,46 +54,40 @@ h1, h2, h3, h4, h5, h6 {
     font-size: calc(0.8rem + 1.0vw);
 }
 
-.parallax {
-    background-image: url("http://wrinklepro.local/wp-content/uploads/2018/12/ribbon-group-1.jpeg");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+.elementor-element {
+    background-color: #f06292;
 
-.parallax__title {
-    background-color: rgba(126, 49, 49, 0.5);
-    padding: 80px 40px;
-    text-align: center;
-}
+    .fa-gift {
+        margin-top: 40px;
+        font-size: calc(0.7rem + 3.0vw);
+    }
 
-.parallax__title h3 {
-    font-size: calc(0.7rem + 3.5vw);
-}
-
-.parallax__p {
-    font-weight: 200;
-    font-size: calc(0.8rem + 1.0vw);
-}
-
-.elementor-424 .elementor-element.elementor-element-55107305 {
-    background-color: #ffa6d6;
-    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
-    margin-top: 0px;
-    margin-bottom: 30px;
-    padding: 20px 0px 70px 0px;
-
+    h3 {
+        font-size: calc(0.7rem + 3.0vw);
+    }
+    .btn-primary {
+        background: #ff1b83;
+        color: #fff;
+        margin-bottom: 15px;
+        border: none;
+    }
+    .btn-primary:hover {
+        background: #ff5fa7;
+    }
 }
 
 .elementor-shape .elementor-shape-fill {
-    fill: #ff569c;
+    fill: #f06292;
     -webkit-transform-origin: center;
     -ms-transform-origin: center;
     transform-origin: center;
     -webkit-transform: rotateY(0deg);
     transform: rotateY(0deg);
 
+}
+
+.banners-section {
+    color: #f06292;
 }
 
 #footerLogo {

@@ -8,7 +8,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar {
-  background-color: #f06292;
+  background-color: #ff1b83;
 }
 
 .navbar strong {
@@ -18,7 +18,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-expanded {
-  background-color: #f06292;
+  background-color: #ff1b83;
 }
 
 #navLogo {
@@ -30,7 +30,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .banner-divider {
-  background-color: #f06292;
+  background-color: #ff1b83;
   text-align: center;
 }
 
@@ -44,7 +44,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .title--background {
   padding: 3rem 1rem;
-  background-color: #f06292;
+  background-color: #ff1b83;
 }
 
 .title--background p {
@@ -52,7 +52,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .elementor-element {
-  background-color: #f06292;
+  background-color: #ff1b83;
 }
 
 .elementor-element .fa-gift {
@@ -65,8 +65,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .elementor-element .btn-primary {
-  background: #ff1b83;
-  color: #fff;
+  background: #eee;
+  color: #222;
   margin-bottom: 15px;
   border: none;
 }
@@ -76,7 +76,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .elementor-shape .elementor-shape-fill {
-  fill: #f06292;
+  fill: #ff1b83;
   -webkit-transform-origin: center;
   transform-origin: center;
   -webkit-transform: rotateY(0deg);
@@ -84,7 +84,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .banners-section {
-  color: #f06292;
+  color: #ff1b83;
 }
 
 #footerLogo {

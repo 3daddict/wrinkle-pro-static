@@ -43,12 +43,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .title--background {
-  padding: 3rem 0;
+  padding: 3rem 1rem;
   background-color: #f06292;
-}
-
-.title--background h1 {
-  font-size: calc(0.8rem + 4.0vw);
 }
 
 .title--background p {
@@ -93,29 +89,5 @@ h1, h2, h3, h4, h5, h6 {
 
 #footerLogo {
   max-height: 150px;
-}
-
-@media all and (min-width: 768px) and (max-width: 1024px) {
-  .title--background {
-    padding: 5rem;
-  }
-}
-
-@media all and (min-width: 480px) and (max-width: 768px) {
-  .title--background {
-    padding: 4rem;
-  }
-  .parallax__title {
-    padding: 60px 20px;
-  }
-}
-
-@media all and (max-width: 480px) {
-  .title--background {
-    padding: 3rem;
-  }
-  .parallax__title {
-    padding: 40px 10px;
-  }
 }
 /*# sourceMappingURL=styles.css.map */

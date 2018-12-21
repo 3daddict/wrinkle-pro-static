@@ -1,0 +1,123 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Raleway', sans-serif;
+}
+
+.navbar {
+    background-color: #ff569c;
+}
+
+.nav-expanded {
+    background-color: #ff569c;
+}
+
+#navLogo {
+    max-height: 200px;
+}
+
+.navbar-brand {
+    font-weight: 100;
+}
+
+.banner-divider {
+    background-color: #ff569c;
+    text-align: center;
+    img {
+        padding: 1rem 0;
+    }
+}
+
+.jumbotron {
+    margin-bottom: 0;
+}
+
+.title--background {
+    padding: 6rem;
+    background-color: #ff569c;
+}
+
+.title--background h1 {
+    font-size: calc(0.8rem + 4.0vw);
+}
+
+.title--background p {
+    font-size: calc(0.8rem + 1.0vw);
+}
+
+.parallax {
+    background-image: url("http://wrinklepro.local/wp-content/uploads/2018/12/ribbon-group-1.jpeg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax__title {
+    background-color: rgba(126, 49, 49, 0.5);
+    padding: 80px 40px;
+    text-align: center;
+}
+
+.parallax__title h3 {
+    font-size: calc(0.7rem + 3.5vw);
+}
+
+.parallax__p {
+    font-weight: 200;
+    font-size: calc(0.8rem + 1.0vw);
+}
+
+.elementor-424 .elementor-element.elementor-element-55107305 {
+    background-color: #ffa6d6;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    padding: 20px 0px 70px 0px;
+
+}
+
+.elementor-shape .elementor-shape-fill {
+    fill: #ff569c;
+    -webkit-transform-origin: center;
+    -ms-transform-origin: center;
+    transform-origin: center;
+    -webkit-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+
+}
+
+#footerLogo {
+    max-height: 150px;
+}
+
+@media all and (min-width: 1280px) {
+
+}
+
+@media all and (min-width: 768px) and (max-width: 1024px) {
+    .title--background {
+        padding: 5rem;
+    }
+}
+
+@media all and (min-width: 480px) and (max-width: 768px) {
+    .title--background {
+        padding: 4rem;
+    }
+    .parallax__title {
+        padding: 60px 20px;
+    }
+}
+
+@media all and (max-width: 480px) {
+    .title--background {
+        padding: 3rem;
+    }
+    .parallax__title {
+        padding: 40px 10px;
+    }
+}

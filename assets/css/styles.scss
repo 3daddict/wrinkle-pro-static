@@ -43,9 +43,12 @@ h1, h2, h3, h4, h5, h6 {
 
 .title--background {
     padding: 3rem 1rem;
+    h2 {
+        font-size: calc(2rem + 1.0vw);
+    }
     background-color: #ff1b83;
     p {
-        font-size: calc(0.7rem + 1.0vw);
+        font-size: calc(1.0rem + 1.0vw);
     }
 }
 

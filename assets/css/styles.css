@@ -94,4 +94,8 @@ h1, h2, h3, h4, h5, h6 {
 #footerLogo {
   max-height: 150px;
 }
+
+.footer h5, .footer p, .footer a {
+  color: #ff1b83;
+}
 /*# sourceMappingURL=styles.css.map */
